@@ -4,7 +4,7 @@ Created on Wed Aug  5 18:13:19 2020
 
 @author: Silvia Vargas 
 """
-import brownian_motion
+from Brownian_motion import brownian_motion
 import numpy as np
 import sys
 import configparser
@@ -13,10 +13,10 @@ import configparser
 config = configparser.ConfigParser()
 config.read(sys.argv[1])
 
-N = config.get('parameter', 'N')
-T= config.get('parameter', 'T')
-h = config.get('parameter', 'h')
-dt = config.get('parameter', 'dt')
+N = config.get('parameters', 'N')
+T= config.get('parameters', 'T')
+h = config.get('parameters', 'h')
+dt = config.get('parameters', 'dt')
 
 destination1 = config.get('paths','my_time')
 destination2 = config.get('paths','my_motion')

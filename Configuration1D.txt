@@ -1,0 +1,13 @@
+[parameters]
+
+N = 100 # the number of discrete steps 
+T = 1 # the number of continuous time steps
+h = 1 # the variance of the increments
+dt = 1.0 * T/N # total number of time steps
+
+[paths]
+
+time_pic: ./images/timeEvolution.png
+
+my_time: ./data/time.npy
+my_motion: ./data/motion.npy
