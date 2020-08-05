@@ -1,4 +1,4 @@
-#Brownian motion model
+# Brownian motion model
 
 Brownian motion can be described by a continuous-time stochastic process called the Wiener process.
 Let ***X(t)*** be a random variable that depends continuosly on ***t*** in ***[0,T]***. The random variable is characterized by: 
