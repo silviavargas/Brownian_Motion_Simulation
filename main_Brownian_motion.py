@@ -6,8 +6,8 @@ Created on Wed Aug  5 18:13:19 2020
 """
 from Brownian_motion import brownian_motion
 import numpy as np
-import sys
-import configparser
+#import sys
+#import configparser
 
 """
 #main part of the code
@@ -37,8 +37,11 @@ dt = 1.0 * T/N # total number of time steps
 
 
 # generate a brownian motion
-X, dX = brownian_motion(N, T ,h)
+Y,dY = brownian_motion(N, T ,h)
+X,dX = brownian_motion(N, T ,h)
 t = np.linspace(0.0, N*dt, N+1)
+
+
 """
 np.save(destination1,t)
 np.save(destination2,X)
