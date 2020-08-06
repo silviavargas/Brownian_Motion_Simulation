@@ -31,7 +31,7 @@ def brownian_motion(N, T, h):
     
     Returns
     -------
-    A two numpy array of floats the random variable X and the increments dX.
+    Two numpy arrays of floats the random variable X and the increments dX.
     
     Note that the initial value `x0` is not included in the returned array.
     """
