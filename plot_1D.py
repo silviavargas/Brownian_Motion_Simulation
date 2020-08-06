@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 plt.figure(figsize=(15, 7))
 plt.title('Brownian Motion', fontsize=24)
 plt.xlabel('Time', fontsize=22)
-plt.ylabel('Value', fontsize=22)
+plt.ylabel('X', fontsize=22)
 plt.xticks(fontsize=18)
 plt.yticks(fontsize=18)
 
