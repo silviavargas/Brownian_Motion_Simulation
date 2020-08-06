@@ -16,7 +16,7 @@ line, = ax.step([], [], where='mid', color='#0492C2')
 # formatting options
 ax.set_xticks(np.linspace(0,1,11))
 ax.set_xlabel('Time', fontsize=30)
-ax.set_ylabel('Value', fontsize=30)
+ax.set_ylabel('X', fontsize=30)
 ax.tick_params(labelsize=22)
 ax.grid(True, which='major', linestyle='--', color='black', alpha=0.6)
 
@@ -38,4 +38,4 @@ def animate(i):
 
 # call the animator	 
 anim = animation.FuncAnimation(fig, animate, init_func=init, frames=200, interval=150, blit=True)
-anim.save('brownian_motion.gif', writer = animation.writers['ffmpeg'])
+anim.save('brownian_motion.gif', writer='Pillow')
