@@ -9,7 +9,7 @@ import matplotlib.animation as animation
 import numpy as np
 from Brownian_motion import brownian_motion
 
-fig = plt.figure(figsize=(21, 10))
+fig = plt.figure(figsize=(15, 7))
 ax = plt.axes(xlim=(0, 1)) 
 line, = ax.step([], [], where='mid', color='#0492C2')
     
